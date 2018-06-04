@@ -16,12 +16,12 @@ import (
 	"testing"
 	"time"
 
-	"bazil.org/fuse"
-	"bazil.org/fuse/fs"
-	"bazil.org/fuse/fs/fstestutil"
-	"bazil.org/fuse/fs/fstestutil/record"
-	"bazil.org/fuse/fuseutil"
-	"bazil.org/fuse/syscallx"
+	"github.com/napsy/fuse"
+	"github.com/napsy/fuse/fs"
+	"github.com/napsy/fuse/fs/fstestutil"
+	"github.com/napsy/fuse/fs/fstestutil/record"
+	"github.com/napsy/fuse/fuseutil"
+	"github.com/napsy/fuse/syscallx"
 	"golang.org/x/net/context"
 )
 

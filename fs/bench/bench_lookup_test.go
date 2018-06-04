@@ -6,9 +6,9 @@ import (
 
 	"golang.org/x/net/context"
 
-	"bazil.org/fuse"
-	"bazil.org/fuse/fs"
-	"bazil.org/fuse/fs/fstestutil"
+	"github.com/napsy/fuse"
+	"github.com/napsy/fuse/fs"
+	"github.com/napsy/fuse/fs/fstestutil"
 )
 
 type benchLookupDir struct {
